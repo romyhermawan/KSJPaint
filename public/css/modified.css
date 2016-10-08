@@ -1,0 +1,108 @@
+.icon-play{
+	position: absolute;
+    z-index: 5000;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+}
+
+.youtube-vid{
+	position: relative;
+	height: 204px;
+	background-repeat: 
+	no-repeat !important;
+	background-position: 50% 50% !important;
+}
+
+.product-title{
+	font-size: 25px;
+    color: #939393;
+    padding-bottom: 5px;
+    font-family: 'Sniglet', cursive;
+}
+.product-desc{
+	font-size: 16px;
+}
+
+.product-price{
+	font-size: 22px;
+	box-sizing: border-box;
+}
+
+.product-stock{
+	color: #74DF00;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.titleH2{
+	margin-bottom: 20px;
+}
+.titleH1{
+	margin-bottom: 40px;
+}
+.a-collapse{
+	color: black;
+}
+
+.a-collapse:focus{
+	color:black;
+}
+
+.a-collapse:hover{
+	color:black;
+}
+
+.intro{
+    letter-spacing: 2px;
+    line-height: 180%;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 10%
+}
+.nav-tabs>li>a {
+	color : blue;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+.header{
+	margin-bottom: 10px;
+	margin-top:20px;
+	letter-spacing: 2px;
+}
+
+.pStep{
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+.tab-pane{
+	margin-bottom: 30px
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 110px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
